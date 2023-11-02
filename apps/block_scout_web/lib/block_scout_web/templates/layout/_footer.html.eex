@@ -19,26 +19,6 @@
 
     <div class="row">
       <div class="col-xs-12 col-lg-12 text-center">
-        <div class="footer-social-icons">
-        <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
-            <div class="footer-social-icon-container fontawesome-icon github"></div>
-          </a>
-          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Facebook") %>'>
-            <div class="footer-social-icon-container fontawesome-icon facebook"></div>
-          </a>
-          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
-            <div class="footer-social-icon-container fontawesome-icon twitter"></div>
-          </a>
-          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
-            <div class="footer-social-icon-container fontawesome-icon telegram"></div>
-          </a>
-          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Youtube") %>'>
-            <div class="footer-social-icon-container fontawesome-icon youtube"></div>
-          </a>
-         <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Linkedin") %>'>
-            <div class="footer-social-icon-container fontawesome-icon linkedin"></div>
-          </a>
-        </div>
        <p class="footer-info-text"><%= gettext("© Copyright 2023 BitconiVB Smartchain, All Right Reserved.") %></p>
       </div>
     </div>
