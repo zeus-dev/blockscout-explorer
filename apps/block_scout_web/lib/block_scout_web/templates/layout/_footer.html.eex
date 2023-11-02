@@ -1,0 +1,46 @@
+<footer class="footer">
+  <div class="footer-body container">
+    <!-- Logo -->
+    <div class="row footer-logo-row">
+      <div class="col-md-12 text-center">
+        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
+          <%= if logo_footer() do %>
+            <img class="footer-logo" src="apps/block_scout_web/assets/static/images/logo-white.svg" alt="<%= subnetwork_title() %>" />
+          <% end %>
+          <%= if logo_text() do %>
+            <span class="logo-text in-footer <%= unless logo_footer(), do: "no-logo" %>"> <%= logo_text() %> </span>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+
+    <% other_explorers = other_explorers() %>
+    <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
+
+    <div class="row">
+      <div class="col-xs-12 col-lg-12 text-center">
+        <div class="footer-social-icons">
+        <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
+            <div class="footer-social-icon-container fontawesome-icon github"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Facebook") %>'>
+            <div class="footer-social-icon-container fontawesome-icon facebook"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
+            <div class="footer-social-icon-container fontawesome-icon twitter"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+            <div class="footer-social-icon-container fontawesome-icon telegram"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Youtube") %>'>
+            <div class="footer-social-icon-container fontawesome-icon youtube"></div>
+          </a>
+         <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Linkedin") %>'>
+            <div class="footer-social-icon-container fontawesome-icon linkedin"></div>
+          </a>
+        </div>
+       <p class="footer-info-text"><%= gettext("© Copyright 2023 BitconiVB Smartchain, All Right Reserved.") %></p>
+      </div>
+    </div>
+ </div>
+      </footer>
