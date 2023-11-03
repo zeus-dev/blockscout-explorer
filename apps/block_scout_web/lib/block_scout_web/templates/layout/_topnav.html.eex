@@ -19,11 +19,11 @@
       <ul class="navbar-nav">
         <%= if Application.get_env(:block_scout_web, BlockScoutWeb.WebRouter)[:enabled] do %>
           <li class="nav-item dropdown">
-            <a class="nav-link topnav-nav-link dropdown-toggle" href="block_icon.html" id="navbarBlocksDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <!-- <span class="nav-link-icon">
+            <a class="nav-link topnav-nav-link dropdown-toggle" href="#" id="navbarBlocksDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="nav-link-icon">
                 <%= render BlockScoutWeb.IconsView, "_block_icon.html" %>
               </span>
-              <%= gettext("Blocks") %> -->
+              <%= gettext("Blocks") %>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarBlocksDropdown">
               <%= link to: blocks_path(@conn, :index), class: "dropdown-item #{tab_status("blocks", @conn.request_path)}" do %>
@@ -69,7 +69,7 @@
               </span>
               <%= gettext("Tokens") %>
             </a>
-           <!-- <div class="dropdown-menu" aria-labeledby="navbarTransactionsDropdown"> 
+         <div class="dropdown-menu" aria-labeledby="navbarTransactionsDropdown"> 
               <%= link(
                     gettext("All"),
                     class: "dropdown-item #{tab_status("tokens", @conn.request_path)}",
@@ -80,7 +80,7 @@
                     class: "dropdown-item #{tab_status("accounts", @conn.request_path)}",
                     to: address_path(@conn, :index)
                   ) %> 
-            </div> -->
+            </div>
           </li>
         <% end %>
           </ul>
