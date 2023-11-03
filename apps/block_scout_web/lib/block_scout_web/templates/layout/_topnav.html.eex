@@ -75,11 +75,11 @@
                     class: "dropdown-item #{tab_status("tokens", @conn.request_path)}",
                     to: tokens_path(@conn, :index)
                   ) %>
-               <%= link(
+               <!- <%= link(
                     gettext("Ether"),
                     class: "dropdown-item #{tab_status("accounts", @conn.request_path)}",
                     to: address_path(@conn, :index)
-                  ) %> 
+                  ) %> -->
             </div>
           </li>
         <% end %>
