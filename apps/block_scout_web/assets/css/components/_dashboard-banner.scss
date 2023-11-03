@@ -98,7 +98,9 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
   @include media-breakpoint-down(sm) {
     grid-template-columns: 1fr 1fr;
   }
-
+.dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.gas-price-oracle:before, .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.price-per-day:before {
+    background-color: #87e1a9!important;
+}
   .dashboard-banner-chart-legend-item {
     padding-bottom: 3px;
     padding-left: 12px;
@@ -265,6 +267,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
     line-height: 1.2;
     margin: 0 0 5px;
 }
+
 .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.gas-price-oracle:before, .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.price-per-day:before {
     background-color: #87e1a9 !important;
 }
