@@ -19,7 +19,7 @@
 
     <div class="row">
       <div class="col-xs-12 col-lg-12 text-center">
-       <p class="footer-info-text"><%= gettext("© Copyright 2023 BitconiVBPoS, All Right Reserved.") %></p>
+       <p class="footer-info-text"><%= gettext("© Copyright 2023 BitcoinVBPoS, All Right Reserved.") %></p>
       </div>
     </div>
  </div>
