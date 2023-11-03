@@ -71,15 +71,10 @@
             </a>
          <div class="dropdown-menu" aria-labeledby="navbarTransactionsDropdown"> 
               <%= link(
-                    gettext("All"),
+                    gettext("All Tokens"),
                     class: "dropdown-item #{tab_status("tokens", @conn.request_path)}",
                     to: tokens_path(@conn, :index)
                   ) %>
-               <!- <%= link(
-                    gettext("Ether"),
-                    class: "dropdown-item #{tab_status("accounts", @conn.request_path)}",
-                    to: address_path(@conn, :index)
-                  ) %> -->
             </div>
           </li>
         <% end %>
