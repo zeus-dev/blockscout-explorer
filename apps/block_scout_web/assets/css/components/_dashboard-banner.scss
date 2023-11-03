@@ -101,6 +101,9 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
 .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.gas-price-oracle:before, .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.price-per-day:before {
     background-color: #87e1a9!important;
 }
+  .dashboard-banner-chart-legend .dashboard-banner-chart-legend-item.tx-per-day:before {
+    background-color: #87e1a9 !important;
+}
   .dashboard-banner-chart-legend-item {
     padding-bottom: 3px;
     padding-left: 12px;
