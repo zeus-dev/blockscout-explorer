@@ -19,6 +19,20 @@
 
     <div class="row">
       <div class="col-xs-12 col-lg-12 text-center">
+<div class="footer-social-icons">
+        <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title="Github">
+            <div class="footer-social-icon-container fontawesome-icon github"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title="Facebook">
+            <div class="footer-social-icon-container fontawesome-icon facebook"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title="Twitter">
+            <div class="footer-social-icon-container fontawesome-icon twitter"></div>
+          </a>
+          <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title="Telegram">
+            <div class="footer-social-icon-container fontawesome-icon telegram"></div>
+          </a>
+        </div>
        <p class="footer-info-text"><%= gettext("© Copyright 2023 BitcoinVBPoS, All Right Reserved.") %></p>
       </div>
     </div>
