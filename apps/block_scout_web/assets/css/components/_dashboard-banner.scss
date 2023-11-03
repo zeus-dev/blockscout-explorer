@@ -252,6 +252,12 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
   }
 }
 
+.dashboard-banner-network-stats-label {
+    color: #ffc107 !important;
+    display: block;
+    white-space: nowrap;
+}
+
 .dashboard-banner-network-stats {
   column-gap: 25px;
   display: grid;
