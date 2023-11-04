@@ -134,7 +134,7 @@
               </dd>
             </dl>
           <% end %>  
-          <dl class="row">
+        <!--  <dl class="row">
             <dt class="col-sm-4 col-md-4 col-lg-3 text-muted">
               <%= render BlockScoutWeb.CommonComponentsView, "_i_tooltip_2.html",
               text: gettext("Type of the token standard") %>
@@ -143,7 +143,7 @@
             <dd class="col-sm-8 col-md-8 col-lg-9">
               <%= @token.type %>
             </dd>
-          </dl>
+          </dl> -->
         </div>
       </div>
     </div>
